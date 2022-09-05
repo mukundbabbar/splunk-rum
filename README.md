@@ -1,4 +1,4 @@
-# Splunk browser real user monitoring
+# Splunk Real User Monitoring - Opentelemetry
 
 ## Inject splunk-otel-web.js agent using chrome plugin for testing the agent/correlation locally
 
