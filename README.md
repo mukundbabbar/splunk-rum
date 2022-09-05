@@ -1,6 +1,6 @@
 # Splunk browser real user monitoring
 
-Inject splunk-otel-web.js agent using chrome plugin for testing the agent/correlation locally
+## Inject splunk-otel-web.js agent using chrome plugin for testing the agent/correlation locally
 
 ## Install Injector Chrome extension (Note - Injector plugin is one of the many available extensions available to test the snippet on your laptop)
 
