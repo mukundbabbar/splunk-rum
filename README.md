@@ -72,6 +72,12 @@ document.body.appendChild(js);
 console.log("Done injecting");
 ```
 
+As the configuration is saved for opentelemetry.io, it'll only work for this domain. Change this to apply it to any website and save the configuration.
+Once configured, browse to the configured domain and click on the injector plugin icon on the extension pane. (It should not be highlighted)
+
+<img width="46" alt="Screen Shot 2022-09-07 at 8 12 01 pm" src="https://user-images.githubusercontent.com/5012739/188853298-728af120-abe3-46c8-8711-a97f43deb8dc.png">
+
+
 ## Validate data in Splunk Observability Cloud and correlation with backend application traces
 
 <img width="1223" alt="Screen Shot 2022-09-05 at 9 25 16 pm" src="https://user-images.githubusercontent.com/5012739/188438100-0a360b5a-d96d-4828-a00b-b488bee9074e.png">
