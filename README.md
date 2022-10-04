@@ -26,6 +26,7 @@ ${SPLUNK_REALM}
 
 The snippet also includes example of adding custom attributes and sending events
 
+### Snippet
 ```
 console.log("Injecting")
 var js = document.createElement("script");
