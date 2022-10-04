@@ -46,10 +46,11 @@ js.onload = function() {
         },
         });
         
-        //Add error event
+        //Add custom span
         const Provider = SplunkRum.provider;
         var tracer=Provider.getTracer('appModuleLoader');
         span = tracer.startSpan('custom_workflow', {
+	//span attributes
         attributes: {
             'workflow.name': 'doWork',
             'payment_id': '00088770000'
@@ -57,12 +58,14 @@ js.onload = function() {
         });
         doWork();
         span.end();
+	//End custom span
 	
 	function doWork(){
 			for (let i = 0; i <= Math.floor(Math.random() * 400000); i += 1) {
 					// empty
 			}
 			span.setAttribute('error', true);
+			//Custom Event log
 			span.addEvent('task returned error in processing record');
 	}
         
